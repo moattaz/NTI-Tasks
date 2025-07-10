@@ -6,10 +6,14 @@
 
     body {
       font-family: 'Open Sans', sans-serif;
-      background:linear-gradient(to right, #000000c4, #000000c4), url('../task3_image/img.jpg') no-repeat center center/cover;
-      background-position: 100% 0;
       color: white;
       
+    }
+    .sec1{
+            background:linear-gradient(to right, #000000c4, #000000c4), url('../task3_image/img.jpg') no-repeat center center/cover;
+      background-position: 100% 0;
+height: 100vh;;
+
     }
 
     header {
@@ -29,7 +33,9 @@
     .logo span {
       color: orange;
     }
-    
+    .nav1{
+      position: sticky;
+    }
     nav a {
       color: white;
       text-decoration: none;
@@ -109,4 +115,214 @@
       font-weight: bold;
       cursor: pointer;
     }
+  .sec2{
+    color: black;
+    margin-left: 10%;
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .left1{
+    color:rgb(174, 174, 174);
+     width: 50%;
+    margin-right: 10%;
+  }
+  .left1 h2{
+    color: #4f4e4e;
+  }
+  .icons a{
+    color: rgb(174, 174, 174);
+    font-size: 50px;
+    margin-left: 10px;
+    margin-right: 6%;
+  
+  }
+  
+  .icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin-right: 3%;
+  
+  }
+   .tabs-section {
+      background: #f9f9f9;
+      padding: 50px 20px;
+    }
+    .tabs-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+    .tabs {
+    
+      display: flex;
+      flex-direction: column;
+      margin-left: 100px;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    }
+    .tab {
+     
+      padding: 20px;
+      background: #333;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .tab.active {
+      background: #ff8b3e;
+    }
+    .tab-content {
+      color: #555;
+      max-width: 400px;
+    }
+    .tab-content h2 {
+      color: #333;
+      margin-bottom: 15px;
+    }
+    .download-btn {
+      margin-top: 20px;
+      background: #ff8b3e;
+      border: none;
+      padding: 12px 20px;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    .tab-image img {
+      max-width: 300px;
+    }
+
+    
+    .sub-list-section {
+      padding: 60px 20px;
+    
+    }
+    .content-wrapper {
+      display: flex;
+        
+      align-items: center;
+      justify-content: space-between;
+      gap: 40px;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .content-wrapper img {
+      width: 400px;
+      max-width: 100%;
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+      border-radius: 4px;
+    }
+    .sub-text h2 {
+      margin-bottom: 10px;
+    }
+    .sub-text p {
+      color: #555;
+      margin-bottom: 20px;
+    }
+    .sub-item {
+      display: flex;
+      align-items: start;
+      margin-bottom: 20px;
+    }
+    .sub-item .icon {
+      width: 40px;
+      height: 40px;
+      border: 2px solid orange;
+      color: orange;
+      font-size: 20px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 36px;
+      margin-right: 10px;
+    }
+
+.contact-section {
+    padding: 80px 0;
+    background-color: #f8f8f8;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.form-group-row {
+    display: flex;
+    gap: 20px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"] {
+    flex: 1;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+    color: #555;
+}
+
+.contact-form input::placeholder {
+    color: #aaa;
+}
+
+.send-message-btn {
+    align-self: center;
+    padding: 15px 40px;
+    background-color: #ff9933; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.send-message-btn:hover {
+    background-color: #e68a2e; 
+}
+
+
+.footer-section{
+
+  
+    background-color: #222;
+    color: #bbb;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-section .social-icons {
+    margin-bottom: 20px;
+}
+
+.footer-section .social-icons a {
+    color: #bbb;
+    font-size: 1.5em;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.footer-section .social-icons a:hover {
+    color: #fff;
+}
+
+.footer-section p {
+    font-size: 0.9em;
+    color: #888;
+   
+}
+
   
